@@ -1,0 +1,7 @@
+.hover1{
+    transition: all 500ms ease;
+}
+.hover1:hover{
+    transform: scale(1.09);
+    cursor: pointer;
+}
