@@ -1,0 +1,365 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+nav {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: rgb(65, 241, 183);
+    margin: 0px;
+    position: fixed;
+    z-index: 10;
+    border: 2px;
+    box-shadow: 5px 5px 20px #4e309c;
+    background-image: linear-gradient(#7274db, #4e309c);
+}
+
+.logodabba {
+    position: absolute;
+    /* border: 4px solid red; */
+    display: inline-block;
+    left: 19px;
+    top: 7px;
+}
+
+.logodabba img {
+    display: inline-block;
+
+    margin-top: -12px;
+    width: 136px;
+    height: 69px;
+    left: 3px;
+}
+
+.oppor {
+    color: whitesmoke;
+    text-align: center;
+    position: absolute;
+    border: 2px solid reds;
+    display: inline-block;
+    /* margin-top: 2%;  they both are same*/
+    top: 11px;
+    left: 127px;
+    font-size: 23px;
+    font-weight: bold;
+    text-shadow: 25px;
+}
+
+.top {
+    /* border: 4px solid black; */
+    display: block;
+    width: 35%;
+    margin: 4px auto;
+    margin-right: 397px;
+
+}
+
+.top li {
+
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+
+}
+
+.top li a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 0px 27px;
+    color: rgb(251, 250, 250);
+
+
+}
+
+.top li a:hover {
+    text-decoration: underline;
+    color: rgb(242, 184, 114);
+    transition: all 0.5s ease 0s;
+    /* font-weight: ;  */
+
+}
+
+.buttondabba {
+    /* border: 2px solid rgb(135, 202, 235); */
+    width: 411px;
+    height: 61px;
+    margin-top: -82px;
+    display: inline-block;
+    position: absolute;
+    right: 32px;
+}
+
+
+.buttondabba  img {
+    border: 2px solid rgb(239, 241, 242);
+    /* border-radius: 25px; */
+    background-color: whitesmoke;
+    display: inline-block;
+    position: absolute;
+    margin-top: 26px;
+    width: 37px;
+    height: 25px;
+    right: 198px;
+}
+
+.buttondabba  img:hover {
+    border: none !important;
+    background-color: rgb(16, 56, 105);
+    cursor: pointer;
+}
+
+.buttondabba .srch {
+    height: 24px;
+    /* width: 18px; */
+    right: 226px;
+    display: inline-block;
+    position: absolute;
+    margin-top: 27px;
+    border: none;
+
+}
+
+.buttondabba .srch:hover {
+    border: none !important;
+}
+
+.calldabba {
+
+    /* border: 2px solid rgb(135, 202, 235);  */
+    width: 171px;
+    height: 61px;
+    margin-top: -76px;
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    /* padding-left: 7px; */
+
+}
+
+.calldabba button {
+    border-radius: 9px;
+    /* display: inline-block;
+    position: absolute; */
+    /* margin-top: -60px; */
+    width: 82px;
+    height: 28px;
+    cursor: pointer;
+    padding: 4px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    /* right: 115px;   */
+}
+
+.calldabba button:hover {
+    background-color: rgb(16, 56, 105);
+    font-weight: bold;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.imagedabba img {
+    height: 526px;
+    width: 100%;
+}
+
+.img img {
+
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    height: 596px;
+    width: 100%;
+}
+
+.content {
+    display: inline-block;
+    margin-left: 206px;
+    position: relative;
+    top: -380px;
+    color: white;
+
+    text-shadow: 1px 2px 23px whitesmoke;
+    /* text-shadow:3px 3px 3px black; */
+}
+
+.content h1 .bop {
+    font-size: xx-large;
+    font-variant: small-caps;
+    font-family: 'Lucida Sans';
+    color: white;
+    text-shadow: 1px 2px 23px whitesmoke;
+
+}
+
+.content h2 {
+    color: rgb(231, 172, 9);
+    text-shadow: 3px 3px 3px rgb(10, 9, 9);
+}
+
+.login-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 41px;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 206px;
+    position: relative;
+    top: -558px;
+}
+
+h1 #lo {
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #666666;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#about-us {
+
+    /* border: 2px solid rebeccapurple; */
+    height: 291px;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 5px;
+}
+
+#about-us h1 {
+    background-color: #7274db;
+    margin-bottom: 39px;
+    /* background-color: #0056b3; */
+    color: white;
+    text-shadow: 1px -2px 15px white;
+    box-shadow: -4px 2px 27px #5d459c;
+    padding: 12px;
+    margin-left: -48px;
+    width: 1575px;
+}
+
+#about-us p {
+    line-height: 37px;
+    font-size: large;
+    color: black;
+    text-shadow: 1px -2px 27px black;
+    letter-spacing: 1px;
+    background-color: white;
+}
+
+#contact-us {
+    border: 2px solid white;
+    background-color: white;
+    margin-top: 86px;
+    padding: 25px;
+    text-align: center;
+    height: 81px;
+    
+     background-color:#7274db ;
+
+}
+
+#contact-us button {
+    border: none !important;
+    height: 54px;
+    width: 66px;
+    float: left;
+    margin: -12px 158px -1px 155px;
+    box-shadow: -1 px 7px 19px 9px #529ef0;
+}
+
+#contact-us button img {
+    height: 41px;
+    width: 58px;
+    background-color: #4f99e9;
+    margin: -4px 0px 4px -6px;
+    border-radius: 4px;
+}
+
+#contact-us button img:hover {
+    background-color: #007bff;
+}
+
+#Jobs {
+
+    /* border: 2px solid rebeccapurple; */
+    display: flex;
+    justify-content: space-evenly; 
+    flex-wrap: wrap; 
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: -503px;
+}
+#Jobs h1 {
+    background-color: #7274db;
+    margin-bottom: 39px;
+    /* background-color: #0056b3; */
+    color: white;
+    text-shadow: 1px -2px 15px white;
+    box-shadow: -4px 2px 27px #5d459c;
+    padding: 12px;
+    /* margin-left: -48px; */
+    width: 100%;
+    display: block;
+}
+#Jobs .aiimg{
+    width: 35%;
+    /* float: left; */
+    border: 2px solid #7274db;
+    box-shadow: -1px 5px 50px #7274db;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+
+}
+#Jobs .aiimg img,
+#Jobs .aiimg p,
+#Jobs .aiimg button{
+    margin: 5px;
+}
+    #Jobs .aiimg img{
+    width: 451px;
+    display: inline-block;
+    height: 242px;
+}
+#Jobs .aiimg img:hover{
+    background-color: #0056b3;
+}
+/* #Jobs .aiimg p{
+    color: white;
+} */
